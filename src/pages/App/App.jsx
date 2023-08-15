@@ -8,12 +8,19 @@ export default function App() {
 
   const [user, setUser] = useState(null)
   return (
-    <div>
+    <main>
       {user ? (
-        <p>Welcome {user}!</p>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<MoviesListPage />} />
+          <Route path="/movies/:movieName" element={<MovieDetailPage />} />  
+          <Route path="/actors" element={<ActorsListPage />} />
+        </Routes>
       ) : (
-        <LoginPage setUser={setUser} />
+        <Routes>
+          <Route path="/" element={<LoginPage />} />
+        </Routes>
       )}
-    </div>
+    </main>
   );
 }
