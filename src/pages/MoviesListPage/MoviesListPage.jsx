@@ -1,5 +1,5 @@
 
-import { movies } from '../../data';
+
 import MovieCard from '../../components/MovieCard/MovieCard';
 
 

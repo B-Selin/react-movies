@@ -1,4 +1,4 @@
-import "../../pages/MoviePage/MoviePage.css";
+// import "../../pages/MoviesListPage/MoviesListPage.css";
 
 
 // ActorCard component is exported as the default export. It accepts a prop called actor which will be the name of the actor
