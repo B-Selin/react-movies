@@ -1,4 +1,5 @@
 import { useState } from "react"
+import "./LoginPage.css"
 
 // useState hook to create a state variable inputValue that stores the user's entered username
 export default function LoginPage(props) {

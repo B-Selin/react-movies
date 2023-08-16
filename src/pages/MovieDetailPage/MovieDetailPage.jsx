@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom"
-
+import "./MovieDetailPage.css"
 
 // fetch the movie name from the route params, find the matching movie object, and display the details. The movies array is passed in as a prop
 export default function MovieDetailPage({ movies }) {

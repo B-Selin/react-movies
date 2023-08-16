@@ -1,4 +1,4 @@
-
+import "./MoviesListPage.css";
 
 import MovieCard from '../../components/MovieCard/MovieCard';
 
